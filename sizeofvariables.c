@@ -3,9 +3,16 @@
 int main()
 {
   int a = 545;
+  int integerType;
+  float floatType;
+  double doubleType;
+  char charType;
 
-  // print value and size of an int variable
-  printf("int a value %d (oct %o, hex %x) and size %d bytes.\n", a, a, a, sizeo$
+  // Sizeof operator is sued to evaluate the size of variable
+  printf ("Size of a: %ld bytes\n", sizeof(integerType));
+  printf ("Size of a: %ld bytes\n", sizeof(floatType));
+  printf ("Size of a: %ld bytes\n", sizeof(doubleType));
+  printf ("Size of a: %ld bytes\n", sizeof(charType));
 }
 
 
