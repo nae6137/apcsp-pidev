@@ -5,14 +5,14 @@ int main()
 	int a;
 	int b =3;
 	int c;
-	int i;
+	int temp;
 
 	a=2;
 	c = a + b;
+	printf("Sum of a=%d and b=%d is c=%d\n", a, b, c);
 
-for(i=0; i<2; i++);
-	a = i;
+	temp = a;
 	a = c;
-	c = i;
-	printf("a is %d and c is %d\n", a, c);
+	c = temp;
+	printf("a is %d and c is %d\n", a, temp);
 }
