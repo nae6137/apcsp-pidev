@@ -8,6 +8,7 @@ int main()
   double doubleType;
   char charType;
   signed signType;
+  unsigned unsignType;
 
 
   // Sizeof operator is used to evaluate the size of variable
@@ -15,6 +16,7 @@ int main()
   printf ("Size of float a: %ld bytes\n", sizeof(floatType));
   printf ("Size of double a: %ld bytes\n", sizeof(doubleType));
   printf ("Size of char a: %ld bytes\n", sizeof(charType));
-  printf ("Size of char a: %ld bytes\n", sizeof(signType));
+  printf ("Size of signed a: %ld bytes\n", sizeof(signType));
+  printf ("Size of unsigned a: %ld bytes\n", sizeof(unsignType));
 
 }
