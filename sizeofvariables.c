@@ -7,12 +7,14 @@ int main()
   float floatType;
   double doubleType;
   char charType;
+  signed signType;
 
-  // Sizeof operator is sued to evaluate the size of variable
-  printf ("Size of a: %ld bytes\n", sizeof(integerType));
-  printf ("Size of a: %ld bytes\n", sizeof(floatType));
-  printf ("Size of a: %ld bytes\n", sizeof(doubleType));
-  printf ("Size of a: %ld bytes\n", sizeof(charType));
+
+  // Sizeof operator is used to evaluate the size of variable
+  printf ("Size of int a: %ld bytes\n", sizeof(integerType));
+  printf ("Size of float a: %ld bytes\n", sizeof(floatType));
+  printf ("Size of double a: %ld bytes\n", sizeof(doubleType));
+  printf ("Size of char a: %ld bytes\n", sizeof(charType));
+  printf ("Size of char a: %ld bytes\n", sizeof(signType));
+
 }
-
-
