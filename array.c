@@ -7,6 +7,7 @@
 	    arr [i] = arr [i] +n;
 	}
     }
+
      int main ()
     {
 	int arr[100];
