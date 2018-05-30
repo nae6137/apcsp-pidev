@@ -3,7 +3,7 @@
 
     float areaofcircle(float r)
     {
-    float a = 3.14 * r * r;
+    float a = 3.14 *(r * r);
     return a;
     }
 int main()
