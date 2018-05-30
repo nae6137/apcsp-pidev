@@ -12,9 +12,9 @@ int main()
     float r;
     char input [26];
     int x;
-    printf("The circle's radius is \n");
+    printf("The circle's radius is %d\n");
     fgets (input, 26, stdin);
-    sscanf (input, %d", &x);
+    sscanf (input, %d\n", &x);
     b = areaofcircle (x)
     printf ("The circle's area is %f\n", b);
     }
