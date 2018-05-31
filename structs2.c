@@ -22,7 +22,14 @@ void printStudent(struct Student* student)
 int main()
 {
   struct student arr[2]
-  for (i
+  for (i<2; i=0; i++)
+  printf("FirstName:/n")
+  printf("LastName:/n")
+  printf("Age:/n")
+  printf("studentid:/n")
+
+I GIVE UP :( 
+
   // create two students
   struct Student mystudent1;
   struct Student mystudent2;
@@ -40,3 +47,4 @@ int main()
   printStudent2(&mystudent1);
 }
 
+I GIVE UP 
