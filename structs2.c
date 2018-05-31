@@ -27,6 +27,9 @@ int main()
   printf("LastName:/n")
   printf("Age:/n")
   printf("studentid:/n")
+}
+    for (i<2; i=0; i++)
+    printf("
 
 I GIVE UP :( 
 
@@ -47,4 +50,4 @@ I GIVE UP :(
   printStudent2(&mystudent1);
 }
 
-I GIVE UP 
+
