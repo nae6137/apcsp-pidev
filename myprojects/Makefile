@@ -1,3 +1,4 @@
+
 TARGET = student 
 LIBS = -lm 
 CC = gcc 
